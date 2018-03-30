@@ -7,3 +7,4 @@
 <https://github.com/jsonsugar/XamainAndroidBindLibary/tree/master/Xg-Push/XinGeDemo>
 
 ***
+**2、七牛直播demo**
