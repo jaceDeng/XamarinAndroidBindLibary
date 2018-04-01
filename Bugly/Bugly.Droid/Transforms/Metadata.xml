@@ -1,0 +1,27 @@
+﻿<metadata> 
+  <attr path="/api/package[@name='com.tencent.bugly']/class[@name='BuglyStrategy.a']"
+      name="managedName">BuglyStrategy</attr>
+  <attr path="/api/package[@name='com.tencent.bugly']/class[@name='BuglyStrategy.a']"
+      name="obfuscated">false</attr>
+ 
+
+  <add-node path="/api/package[@name='com.tencent.bugly']">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Bugly" static="false" visibility="public">
+      <method name="init" return="void" abstract="false" native="false" synchronized="false" static="true" final="false" deprecated="not deprecated" visibility="public" >
+        <parameter name="context" type="android.content.Context"/>
+        <parameter name="appId" type="java.lang.String"/>
+        <parameter name="isDebug" type="boolean"/>
+      </method>
+    </class>
+  </add-node>
+
+  <add-node path="/api/package[@name='com.tencent.bugly.beta']">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Beta" static="false" visibility="public">
+      <method name="checkUpgrade" return="void" abstract="false" native="false" synchronized="true" static="true" final="false" deprecated="not deprecated" visibility="public" > 
+      </method>
+    </class>
+  </add-node>
+  <!--<remove-node path="/api/package[@name='com.tencent.tinker.android.dex']/class[@name='TableOfContents.Section.Item']" />-->
+  <!--<attr path="/api/package/class/method[@name='compareTo']/parameter[1]" name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package/class/method[@name='compareTo']/parameter[1]" name="final">false</attr>-->
+</metadata>
