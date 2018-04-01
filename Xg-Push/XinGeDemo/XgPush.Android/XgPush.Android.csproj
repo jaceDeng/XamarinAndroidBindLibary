@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
-    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -44,6 +43,8 @@
     <None Include="Additions\AboutAdditions.txt" />
     <EmbeddedNativeLibrary Include="libs\armeabi\libtpnsSecurity.so" />
     <EmbeddedNativeLibrary Include="libs\armeabi\libxguardian.so" />
+    <EmbeddedNativeLibrary Include="libs\armeabi-v7a\libtpnsSecurity.so" />
+    <EmbeddedNativeLibrary Include="libs\armeabi-v7a\libxguardian.so" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
