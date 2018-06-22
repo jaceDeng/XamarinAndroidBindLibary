@@ -18,6 +18,7 @@ namespace XinGeDemo
             var str = XGPushConfig.GetToken(ApplicationContext);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            FindViewById<EditText>(Resource.Id.editText1).Text = str;
         }
 
         public void OnFail(Java.Lang.Object data, int flag, string message)
