@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouZanXamarin", "YouZanXamarin\YouZanXamarin.csproj", "{7BFFAF8C-1544-4800-8D47-5FB2421956C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouZan.Droid", "YouZan.Droid\YouZan.Droid.csproj", "{86D80DBC-C658-4490-8956-CEC9F12F105A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouZanSdk", "YouZanSdk\YouZanSdk.csproj", "{FA5A7ECF-89D0-4782-934D-488579445377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jsbridge", "Jsbridge\Jsbridge.csproj", "{7ED686FE-9F6D-4E8D-AE7E-AFDC4088ABC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouzanSystemWeb", "YouzanSystemWeb\YouzanSystemWeb.csproj", "{7A24A425-32E4-4144-A8A0-D429D7A2782F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webcache", "Webcache\Webcache.csproj", "{0622EA08-5F6A-4828-A6F4-849D5EA733D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BFFAF8C-1544-4800-8D47-5FB2421956C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFFAF8C-1544-4800-8D47-5FB2421956C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFFAF8C-1544-4800-8D47-5FB2421956C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7BFFAF8C-1544-4800-8D47-5FB2421956C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFFAF8C-1544-4800-8D47-5FB2421956C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFFAF8C-1544-4800-8D47-5FB2421956C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{86D80DBC-C658-4490-8956-CEC9F12F105A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D80DBC-C658-4490-8956-CEC9F12F105A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D80DBC-C658-4490-8956-CEC9F12F105A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D80DBC-C658-4490-8956-CEC9F12F105A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5A7ECF-89D0-4782-934D-488579445377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5A7ECF-89D0-4782-934D-488579445377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5A7ECF-89D0-4782-934D-488579445377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5A7ECF-89D0-4782-934D-488579445377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED686FE-9F6D-4E8D-AE7E-AFDC4088ABC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED686FE-9F6D-4E8D-AE7E-AFDC4088ABC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED686FE-9F6D-4E8D-AE7E-AFDC4088ABC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED686FE-9F6D-4E8D-AE7E-AFDC4088ABC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A24A425-32E4-4144-A8A0-D429D7A2782F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A24A425-32E4-4144-A8A0-D429D7A2782F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A24A425-32E4-4144-A8A0-D429D7A2782F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A24A425-32E4-4144-A8A0-D429D7A2782F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0622EA08-5F6A-4828-A6F4-849D5EA733D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0622EA08-5F6A-4828-A6F4-849D5EA733D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0622EA08-5F6A-4828-A6F4-849D5EA733D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0622EA08-5F6A-4828-A6F4-849D5EA733D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84CF7482-898A-4C14-B20D-3F9265290456}
+	EndGlobalSection
+EndGlobal

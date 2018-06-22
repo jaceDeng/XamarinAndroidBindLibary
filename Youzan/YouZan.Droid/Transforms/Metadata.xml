@@ -1,0 +1,70 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!--<add-node path="/api/package[@name='com.youzan.androidsdk']" >
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="YouzanSDK" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="clientId" type="java.lang.String">
+        </parameter>
+        <parameter name="adapter" type="com.youzan.androidsdk.YouzanSDKAdapter">
+        </parameter>
+      </method>
+    </class>
+    <class  abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="YouzanSDKAdapter"  visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="isReady" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="clientId" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+  </add-node>-->
+  <add-node path="/api/package[@name='com.youzan.androidsdk.basic']">
+    <class abstract="false" deprecated="not deprecated" extends="android.webkit.WebView" extends-generic-aware="java.lang.Object" final="false" name="YouzanBrowser" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="YouzanBrowser" static="false"  visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="pageGoBack" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reload" native="false" return="void" static="false" synchronized="false" visibility="public">
+
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPause" native="false" return="void" static="false" synchronized="false" visibility="public">
+
+      </method>
+
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" native="false" return="void" static="false" synchronized="false" visibility="public">
+
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onResume" native="false" return="void" static="false" synchronized="false" visibility="public">
+
+      </method>
+      <!--boolean receiveFile(int paramInt, Intent paramIntent);-->
+      <method abstract="false" deprecated="not deprecated" final="false" name="receiveFile" native="false" return="void"
+             static="false" synchronized="false" visibility="public">
+        <parameter name="paramInt" type="int">
+        </parameter>
+        <parameter name="paramIntent" type="android.content.Intent">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="loadUrl" native="false" return="void"
+              static="false" synchronized="false" visibility="public">
+        <parameter name="paramString" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+  </add-node>
+</metadata>
