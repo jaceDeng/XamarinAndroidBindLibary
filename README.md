@@ -24,4 +24,4 @@
 ### 4、有赞商场集成到你app
 
 <img src="https://raw.githubusercontent.com/jsonsugar/XamainAndroidBindLibary/master/Screenshot/youzan.png" width="30%"  style="width:30%"/>
-<https://github.com/youzan/YouzanMobileSDK-Android>
+<https://github.com/youzan/YouzanMobileSDK-Android/>
