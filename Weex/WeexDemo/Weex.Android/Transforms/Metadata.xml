@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.taobao.weex.appfram.clipboard']/interface[@name='IWXClipboard']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.taobao.weex.appfram.storage']/interface[@name='IWXStorage']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.taobao.weex.ui.flat.widget']/class[@name='BaseWidget']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.taobao.weex.ui.animation']/class[@name='LayoutParamsProperty']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.taobao.weex.ui.view.refresh.circlebar']/class[@name='MaterialProgressDrawable']" name="visibility">public</attr>
+	<remove-node path="/api/package[@name='com.taobao.weex.dom']/class[@name='WXStyle']/implements[@name='java.util.Map']" />
+	<remove-node path="/api/package[@name='com.taobao.weex.dom']/class[@name='WXAttr']/implements[@name='java.util.Map']" />
+  <remove-node path="/api/package[@name='com.taobao.weex.dom']/class[@name='WXAttr']/implements[@name='java.util.Map']" />
+  <attr path="/api/package[@name='com.taobao.weex.ui.component']/class[@name='WXEmbed.EmbedRenderListener']/method[@name='onException' and count(parameter)=3]/parameter[@name='p0']" name="name" >instance</attr>
+  <attr path="/api/package[@name='com.taobao.weex.ui.component']/class[@name='WXEmbed.EmbedRenderListener']/method[@name='onException' and count(parameter)=3]/parameter[@name='p1']" name="name" >errCode</attr>
+  <attr path="/api/package[@name='com.taobao.weex.ui.component']/class[@name='WXEmbed.EmbedRenderListener']/method[@name='onException' and count(parameter)=3]/parameter[@name='p2']" name="name" >msg</attr>
+  <attr path="/api/package[@name='com.taobao.weex.ui.component']/interface[@name='WXComponent.OnFocusChangeListener']" name="visibility">private</attr>
+  <attr path="/api/package[@name='com.taobao.weex']/interface[@name='IWXRenderListener']/method[@name='onException' and count(parameter)=3]/parameter[@name='p0']" name="name">instance</attr>
+  <attr path="/api/package[@name='com.taobao.weex']/interface[@name='IWXRenderListener']/method[@name='onException' and count(parameter)=3]/parameter[@name='p1']" name="name">errCode</attr>
+  <attr path="/api/package[@name='com.taobao.weex']/interface[@name='IWXRenderListener']/method[@name='onException' and count(parameter)=3]/parameter[@name='p2']" name="name">msg</attr>
+  <attr path="/api/package[@name='com.taobao.weex.ui.animation']/class[@name='BackgroundColorProperty']" name="extends">java.lang.Object</attr>
+	<attr path="/api/package[@name='com.taobao.weex']/class[@name='WXSDKInstance']/method[@name='getViewPortWidth']" name="static">false</attr>
+	<attr path="/api/package[@name='com.taobao.weex']/class[@name='WXSDKInstance']/method[@name='setViewPortWidth']" name="static">false</attr>
+  <attr path="/api/package[@name='com.taobao.weex.dom.flex']/class[@name='CSSConstants']/field[@name='UNDEFINED']" name="value">float.NaN</attr>
+</metadata>

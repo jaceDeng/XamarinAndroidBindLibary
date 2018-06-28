@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionCode="1" 
+          android:versionName="1.0" 
+          package="YouZanXamarin.YouZanXamarin">
+  <!-- 允许应用程序联网-->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <!-- 检测联网方式, 区分用户设备使用的是2G、3G或是WiFi -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <!-- 外部存储写入权限 -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+  <!--为了更好的体验需要获取地理信息的权限 (以下非必须权限) -->
+  <uses-permission android:name="android.permission.ACCESS_GPS"/>
+  <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS"/>
+  <uses-permission android:name="android.permission.ACCESS_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+  </application>
+</manifest>
