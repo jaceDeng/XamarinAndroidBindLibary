@@ -25,3 +25,6 @@
 
 <img src="https://raw.githubusercontent.com/jsonsugar/XamainAndroidBindLibary/master/Screenshot/youzan.png" width="30%"  style="width:30%"/>
 <https://github.com/youzan/YouzanMobileSDK-Android/>
+
+### 5、阿里云播放器
+<img src="https://github.com/jsonsugar/XamainAndroidBindLibary/blob/master/Screenshot/alivec.jpg?raw=true" width="30%"  style="width:30%"/>
