@@ -28,3 +28,6 @@
 
 ### 5、阿里云播放器
 <img src="https://github.com/jsonsugar/XamainAndroidBindLibary/blob/master/Screenshot/alivec.jpg?raw=true" width="30%"  style="width:30%"/>
+
+### 6、增加一个安卓的摄像头预览的demo演示
+新的安卓版本导致预览会非常麻烦 比如我们要在预览中加个框框或者设计个图标之类的 需要用到预览实现 所以我编写了一个demo 方便大家定制化摄像头预览
