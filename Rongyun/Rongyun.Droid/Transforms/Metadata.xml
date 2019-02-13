@@ -6,31 +6,22 @@
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.AccountInfoListener']/method[@name='OnError']"        name="argsType">AccountInfoErrorEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.DiscussionInfoListener']/method[@name='OnError']"      name="argsType">DiscussionInfoErrorEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.GetUserDataListener']/method[@name='OnError']"    name="argsType">GetUserDataErrorEventArgs</attr>
-
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.HistoryMessageListener']/method[@name='onError']"  name="argsType">HistoryMessageErrorEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.PushSettingListener']/method[@name='OnError']"  name="argsType">PushSettingErrorEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetBlacklistListener']/method[@name='OnError']"  name="argsType">SetBlacklistErrorEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetPushSettingListener']/method[@name='onError']" name="argsType">SetPushSettingErrorEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetOfflineMessageDurationListener']/method[@name='onError']" name="argsType">SetOfflineMessageDurationErrorEventArgs</attr>
-
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.GetUserDataListener']/method[@name='OnSuccess']" name="argsType">GetUserDataSuccessEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.ChatroomInfoListener']/method[@name='OnSuccess']"  name="argsType">ChatroomInfoSuccessEventArgs</attr>
-
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.PushSettingListener']/method[@name='OnSuccess']"    name="argsType">PushSettingSuccessEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetBlacklistListener']/method[@name='OnSuccess']"  name="argsType">SetBlacklistSuccessEventArgs</attr>
-
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetOfflineMessageDurationListener']/method[@name='onSuccess']" name="argsType">SetOfflineMessageDurationSuccessEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.SetPushSettingListener']/method[@name='onSuccess']" name="argsType">SetPushSettingSuccessEventArgs</attr>
-
   <attr path="/api/package[@name='io.rong.imlib']/class[@name='RongJobIntentService.CommandProcessor']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.Void...']]"      name="managedType"  >Java.Lang.Object</attr>
-
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.AccountInfoListener']/method[@name='onReceived']" name="argsType">AccountInfoReceivedEventArgs</attr>
-
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.DiscussionInfoListener']/method[@name='onReceived']" name="argsType">DiscussionInfoReceivedEventArgs</attr>
   <attr path="/api/package[@name='io.rong.imlib']/interface[@name='NativeObject.HistoryMessageListener']/method[@name='onReceived']" name="argsType">HistoryMessageReceivedEventArgs</attr>
-
   <attr  path="/api/package[@name='io.rong.imlib']/interface[@name='RongIMClient.RealTimeLocationListener']/method[@name='onError']" name="argsType">RealTimeLocationErrorEventArgs</attr>
-
   <remove-node path="/api/package[@name='io.rong.imlib']/interface[@name='RongIMClient.RecallMessageListener']"></remove-node>
   <remove-node path="/api/package[@name='io.rong.common']/class[@name='ParcelUtils']/method[@name='writeToParcel' and count(parameter)=2 and parameter[1][@type='android.os.Parcel'] and parameter[2][@type='T']]" />
   <remove-node path="/api/package[@name='io.rong.push.common']/class[@name='ParcelUtils']/method[@name='writeToParcel' and count(parameter)=2 and parameter[1][@type='android.os.Parcel'] and parameter[2][@type='T']]" />
@@ -46,6 +37,8 @@
   <remove-node path="/api/package[@name='io.rong.common.fwlog']/class[@name='FwLog']"></remove-node>
   <remove-node path="/api/package[@name='io.rong.push.common']/class[@name='ParcelUtils']"></remove-node>
   <remove-node path="/api/package[@name='io.rong.push.common.stateMachine']/class[@name='State']"></remove-node>
+  <remove-node path="/api/package[@name='io.rong.imlib']/class[@name='NativeObject']" ></remove-node>
+  <remove-node path="/api/package[@name='io.rong.imlib.location']/class[@name='RealTimeLocation']" ></remove-node>
   <remove-node path="/api/package[@name='io.rong.imlib.stateMachine']/class[@name='State']"></remove-node>
   <remove-node path="/api/package[@name='io.rong.imlib']/class[@name='RongIMClient.GetNotificationQuietHoursCallback']/method[@name='onError' and count(parameter)=1 and parameter[1][@type='io.rong.imlib.RongIMClient.ErrorCode']]"></remove-node>
 </metadata>
