@@ -1,0 +1,28 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[contains(@name,'anet.channel')]"/>
+  <remove-node path="/api/package[contains(@name,'anetwork.channel')]"/>
+  <remove-node path="/api/package[contains(@name,'com.taobao')]"/>
+  <remove-node path="/api/package[contains(@name,'org.android')]"/>
+
+  <remove-node path="/api/package[@name='com.umeng.commonsdk.statistics.common']/class[@name='HelperUtils']/method[@name='safeClose' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]"></remove-node>
+  <remove-node  path="/api/package[@name='com.umeng.commonsdk.statistics.common']/class[@name='HelperUtils']/method[@name='safeClose' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]"></remove-node>
+  <attr path="/api/package[@name='com.umeng.commonsdk.statistics']/class[@name='SdkVersion']/field[@name='SDK_VERSION']" name="managedName">SDK_VERSION</attr>
+  <remove-node path="/api/package[@name='com.umeng.commonsdk.utils']/class[@name='JSONArraySortUtil']"></remove-node>
+  <remove-node  path="/api/package[@name='com.taobao.agoo']/class[@name='IRegister']"></remove-node>
+  <remove-node path="/api/package[@name='org.android.spdy']/class[@name='SpdyByteArray']"></remove-node>
+  <remove-node path="/api/package[@name='anet.channel.bytes']/class[@name='ByteArray']"></remove-node>
+  <remove-node path="/api/package[@name='com.umeng.message']/class[@name='UmengDownloadResourceService.DownloadResourceTask']"></remove-node>
+  <remove-node path="/api/package[@name='anet.channel']/class[@name='SessionCenter']/method[@name='a' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"></remove-node>
+  <remove-node path="/api/package[@name='anet.channel.session']/class[@name='TnetSpdySession']"></remove-node>
+  <remove-node path="/api/package[@name='anetwork.channel.aidl.adapter']/class[@name='ConnectionDelegate']"></remove-node>
+  <attr path="/api/package[@name='anet.channel.bytes']/class[@name='ByteArray']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='anet.channel.bytes.ByteArray']/parameter[@name='p0']]" name="type">
+    java.lang.Object
+  </attr>
+</metadata>

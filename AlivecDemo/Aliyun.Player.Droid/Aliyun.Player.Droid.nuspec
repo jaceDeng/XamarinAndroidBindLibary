@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>sugar</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/jsonsugar/XamainAndroidBindLibary/tree/master/AlivecDemo</projectUrl>
+    <iconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>阿里云安卓直播 xamarin Android player binding</description>
+    <releaseNotes>阿里云安卓直播 xamarin Android 播放器 binding</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>xamarin aliyun alivcPlayer</tags>
+  </metadata>
+</package>
