@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>XgPush.Android</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>XgPush.Android</title>
+    <!--*-->
+    <authors>Dunn_xamarin</authors>
+    <owners>tencent</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>信鸽推送 xamarin 绑定完成  只是绑定库与腾讯并无关系</description>
+    <!--*-->
+    <releaseNotes>信鸽推送 xamarin 绑定完成  只是绑定库与腾讯并无关系</releaseNotes>
+    <copyright>Copyright ©  2018</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>

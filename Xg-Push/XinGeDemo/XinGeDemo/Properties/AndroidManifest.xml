@@ -1,18 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mingx.xgdemo" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="21" />
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
 	<application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/icon">
-    <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
-    <activity
-            android:name="com.tencent.android.tpush.XGPushActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent" >
-      <intent-filter>
-
-        <!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
-        <action android:name="" />
-      </intent-filter>
-    </activity>
+		<!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+		<activity android:name="com.tencent.android.tpush.XGPushActivity" android:exported="false" android:theme="@android:style/Theme.Translucent">
+			<intent-filter>
+				<!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
+				<action android:name="" />
+			</intent-filter>
+		</activity>
 		<!-- 【必须】 信鸽receiver广播接收 -->
 		<receiver android:name="com.tencent.android.tpush.XGPushReceiver" android:process=":xg_service_v3">
 			<intent-filter android:priority="0x7fffffff">
