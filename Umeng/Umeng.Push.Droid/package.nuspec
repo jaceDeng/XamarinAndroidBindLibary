@@ -4,22 +4,21 @@
     <!--*-->
     <id>Umeng.Push.Droid</id>
     <!--*-->
-    <version>1.0.0</version>
+    <version>5.0.2</version>
     <title>Umeng.Push.Droid</title>
     <!--*-->
     <authors>Umeng</authors>
     <owners>Umeng</owners>
     <!--
     <licenseUrl></licenseUrl>
-    <projectUrl></projectUrl>
-    <iconUrl></iconUrl>
--->
+    <projectUrl></projectUrl>-->
+    <iconUrl>http://dev.umeng.com/system/resources/W1siZiIsIjIwMTQvMDkvMTgvMTdfMDZfNTJfMzEwX3VtZW5nc21hbGwucG5nIl1d/umengsmall.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
-    <description>Umeng </description>
+    <description>Umeng push 推送 在集成到Application中会有一些处理方式必须引入Application.java 设置生成方式为AndroidJavaSource 避免xamarin 因进程隔离无法使用问题  </description>
     <!--*-->
-    <releaseNotes>Umeng</releaseNotes>
-    <copyright>Copyright ©  2018</copyright>
+    <releaseNotes>Umeng push 推送 在集成到Application中会有一些处理方式必须引入Application.java  设置生成方式为AndroidJavaSource 避免xamarin因进程隔离无法使用问题  </releaseNotes>
+    <copyright>Copyright ©  2019</copyright>
     <tags>
     </tags>
     <dependencies>
