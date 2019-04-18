@@ -46,10 +46,6 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <LibraryProjectZip Include="Jars\push-5.0.2.aar" />
-    <EmbeddedNativeLibrary Include="lib\arm64-v8a\libcocklogic-1.1.3.so" />
-    <EmbeddedNativeLibrary Include="lib\arm64-v8a\libtnet-3.1.14.so" />
-    <EmbeddedNativeLibrary Include="lib\armeabi-v7a\libcocklogic-1.1.3.so" />
-    <EmbeddedNativeLibrary Include="lib\armeabi-v7a\libtnet-3.1.14.so" />
     <None Include="package.nuspec" />
   </ItemGroup>
   <ItemGroup>
@@ -58,10 +54,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\utdid-1.1.5.3.jar" />
+    <EmbeddedJar Include="Jars\common-1.5.4.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\umeng-common-1.5.4.jar" />
+    <EmbeddedJar Include="Jars\utdid-1.1.5.3.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
