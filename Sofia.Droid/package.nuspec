@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>Sofia.Droid</id>
+    <!--*-->
+    <version>1.0.5</version>
+    <title>Sofia.Droid</title>
+    <!--*-->
+    <authors>yanzhenjie</authors>
+    <owners>yanzhenjie</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>https://github.com/yanzhenjie/Sofia</description>
+    <!--*-->
+    <releaseNotes>https://github.com/yanzhenjie/Sofia</releaseNotes>
+    <copyright>Copyright ©  2018</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>

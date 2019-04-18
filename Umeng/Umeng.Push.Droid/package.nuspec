@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>Umeng.Push.Droid</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>Umeng.Push.Droid</title>
+    <!--*-->
+    <authors>Umeng</authors>
+    <owners>Umeng</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>Umeng </description>
+    <!--*-->
+    <releaseNotes>Umeng</releaseNotes>
+    <copyright>Copyright ©  2018</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>
