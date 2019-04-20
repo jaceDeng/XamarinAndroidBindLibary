@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>Bugly.Droid</id>
+    <!--*-->
+    <version>1.3.4.2</version>
+    <title>Bugly.Droid</title>
+    <!--*-->
+    <authors>bugly</authors>
+    <owners>bugly</owners>
+    <!--
+    <licenseUrl></licenseUrl>-->
+    <projectUrl>https://github.com/dadycoding/XamainAndroidBindLibary/tree/master/Bugly</projectUrl>
+    <iconUrl>https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2376684129,460330055&amp;fm=58</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>
+      bugly 1.3.4 xamarin android绑定库 本库与腾讯和bugly 无关 只是绑定
+
+ </description>
+    <!--*-->
+    <releaseNotes>
+      bugly xamarin android绑定库 本库与腾讯和bugly 无关 只是绑定
+
+    </releaseNotes>
+    <copyright>Copyright ©  2017</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>
