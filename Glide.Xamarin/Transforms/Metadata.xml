@@ -1,0 +1,49 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.bumptech.glide']/interface[@name='BitmapOptions']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.bumptech.glide']/interface[@name='DrawableOptions']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.bumptech.glide']/interface[@name='DownloadOptions']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.bumptech.glide']/class[@name='Priority']/field[@name='priority']" name="managedName">priority</attr>
+  <attr path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='ByteArrayFetcher']/method[@name='loadData' and count(parameter)=1 and parameter[1][@type='com.bumptech.glide.Priority']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.bumptech.glide.load.engine.executor']/class[@name='FifoPriorityThreadPoolExecutor.UncaughtThrowableStrategy']/method[@name='handle' and count(parameter)=1 and parameter[1][@type='java.lang.Throwable']]" name="managedName">HandleWrap</attr>
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.engine.executor']/class[@name='FifoPriorityThreadPoolExecutor']"/>
+  <remove-node path="/api/package[@name='com.bumptech.glide']/class[@name='BitmapRequestBuilder']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/class[@name='GenericTranscodeRequest']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/class[@name='GifRequestBuilder']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.engine.bitmap_recycle']/class[@name='SizeConfigStrategy']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.engine']/class[@name='Engine']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/class[@name='ListPreloader.PreloadTarget']/method[@name='onResourceReady' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.bumptech.glide.request.animation.GlideAnimation&lt;? super java.lang.Object&gt;']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='FileDescriptorAssetPathFetcher']/method[@name='loadResource' and count(parameter)=2 and parameter[1][@type='android.content.res.AssetManager'] and parameter[2][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/class[@name='ListPreloader.PreloadTarget']/method[@name='onResourceReady' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.bumptech.glide.request.animation.GlideAnimation&lt;? super java.lang.Object&gt;']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='FileDescriptorLocalUriFetcher']/method[@name='loadResource' and count(parameter)=2 and parameter[1][@type='android.net.Uri'] and parameter[2][@type='android.content.ContentResolver']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='StreamAssetPathFetcher']/method[@name='loadResource' and count(parameter)=2 and parameter[1][@type='android.content.res.AssetManager'] and parameter[2][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='StreamLocalUriFetcher']/method[@name='loadResource' and count(parameter)=2 and parameter[1][@type='android.net.Uri'] and parameter[2][@type='android.content.ContentResolver']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='ByteArrayFetcher']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.request.target']/class[@name='ImageViewTarget']/method[@name='onResourceReady' and count(parameter)=2 and parameter[1][@type='Z'] and parameter[2][@type='com.bumptech.glide.request.animation.GlideAnimation&lt;? super Z&gt;']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.request.target']/class[@name='PreloadTarget']/method[@name='onResourceReady' and count(parameter)=2 and parameter[1][@type='Z'] and parameter[2][@type='com.bumptech.glide.request.animation.GlideAnimation&lt;? super Z&gt;']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.util']/class[@name='ViewPreloadSizeProvider.SizeViewTarget']/method[@name='onResourceReady' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.bumptech.glide.request.animation.GlideAnimation']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='FileDescriptorAssetPathFetcher']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='FileDescriptorLocalUriFetcher']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='HttpUrlFetcher']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='MediaStoreThumbFetcher']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='StreamAssetPathFetcher']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.data']/class[@name='StreamLocalUriFetcher']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.engine.cache']/class[@name='LruResourceCache']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.model']/interface[@name='ModelLoader']/method[@name='getResourceFetcher' and count(parameter)=3 and parameter[1][@type='T'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load']/interface[@name='Encoder']/method[@name='encode' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='java.io.OutputStream']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load']/interface[@name='Transformation']/method[@name='transform' and count(parameter)=3 and parameter[1][@type='com.bumptech.glide.load.engine.Resource&lt;T&gt;'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.resource.bitmap']/interface[@name='BitmapDecoder']/method[@name='decode' and count(parameter)=5 and parameter[1][@type='T'] and parameter[2][@type='com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='com.bumptech.glide.load.DecodeFormat']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load']/interface[@name='ResourceDecoder']/method[@name='decode' and count(parameter)=3 and parameter[1][@type='T'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.engine']/interface[@name='Resource']/method[@name='get' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.load.resource.transcode']/interface[@name='ResourceTranscoder']/method[@name='transcode' and count(parameter)=1 and parameter[1][@type='com.bumptech.glide.load.engine.Resource&lt;Z&gt;']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.request.target']/interface[@name='Target']/method[@name='onResourceReady' and count(parameter)=2 and parameter[1][@type='R'] and parameter[2][@type='com.bumptech.glide.request.animation.GlideAnimation&lt;? super R&gt;']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.request.target']/class[@name='ImageViewTarget']/method[@name='setResource' and count(parameter)=1 and parameter[1][@type='Z']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.request.animation']/interface[@name='GlideAnimation.ViewAdapter']/method[@name='getView' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.request.target']/class[@name='SquaringDrawable']" />
+  <remove-node path="/api/package[@name='com.bumptech.glide.manager']/class[@name='SupportRequestManagerFragment']/constructor[@name='SupportRequestManagerFragment' and count(parameter)=1 and parameter[1][@type='com.bumptech.glide.manager.ActivityFragmentLifecycle']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/interface[@name='BitmapOptions']/method[@name='centerCrop' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/interface[@name='BitmapOptions']/method[@name='fitCenter' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/interface[@name='DrawableOptions']/method[@name='crossFade' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/interface[@name='DrawableOptions']/method[@name='crossFade' and count(parameter)=2 and parameter[1][@type='android.view.animation.Animation'] and parameter[2][@type='int']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/interface[@name='DrawableOptions']/method[@name='crossFade' and count(parameter)=1 and parameter[1][@type='int']]" />
+  <remove-node path="/api/package[@name='com.bumptech.glide']/interface[@name='DrawableOptions']/method[@name='crossFade' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" />
+</metadata>

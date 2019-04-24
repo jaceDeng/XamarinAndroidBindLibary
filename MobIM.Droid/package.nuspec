@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>MobIM.Droid</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>MobIM.Droid</title>
+    <!--*-->
+    <authors>su</authors>
+    <owners>su</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>https://github.com/MobClub/MobIM-for-Android   MobIM_1.0.0</description>
+    <!--*-->
+    <releaseNotes> https://github.com/MobClub/MobIM-for-Android </releaseNotes>
+    <copyright>@2019</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>
