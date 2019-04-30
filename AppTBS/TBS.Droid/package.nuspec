@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>TBS.Droid</id>
+    <!--*-->
+    <version>4.3.0.1</version>
+    <title>TBS.Droid</title>
+    <!--*-->
+    <authors>tbs</authors>
+    <owners>tbs</owners>
+    <!--
+    <licenseUrl></licenseUrl>-->
+    <projectUrl>https://github.com/dadycoding/XamarinAndroidBindLibary</projectUrl>
+    <iconUrl>https://x5.tencent.com/tbs/img/project/sdk_icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>tbs 4.3.0 腾讯x5 安卓绑定 https://x5.tencent.com/tbs/guide/sdkInit.html</description>
+    <!--*-->
+    <releaseNotes>tbs 4.3.0 腾讯x5 安卓绑定</releaseNotes>
+    <copyright>Copyright ©  2019</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>
