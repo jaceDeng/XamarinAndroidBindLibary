@@ -22,7 +22,7 @@ namespace AppTBS
             base.OnAppearing();
             this.WebBrowser.Source = new UrlWebViewSource
             {
-                Url = "https://www.olexe.cn/inde.html"
+                Url = "http://m.sijibaobao.com/articles.html"
             };
         }
     }
