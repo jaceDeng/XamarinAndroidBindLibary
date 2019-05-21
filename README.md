@@ -1,5 +1,6 @@
 ## XamainAndroidBindLibary
 自己做的一些安卓绑定好的第三方库并带demo的项目
+label style="color:red">喜欢请帮我点个star</label>
 希望能够帮助大家。<br>
 使用demo进行更改首先考虑 application然后是AndroidManifest.xml<br>
 里面的很多细节请注意复制和查看尤其是包名
@@ -34,7 +35,7 @@
 
 ### 7、Safia 
 <https://github.com/yanzhenjie/Sofia/>  沉浸状态栏
-<img src="https://raw.githubusercontent.com/yanzhenjie/Sofia/master/image/1.gif"width="30%"  style="width:30%"/>
+<img src="https://raw.githubusercontent.com/yanzhenjie/Sofia/master/image/1.gif" width="30%"  style="width:30%"/>
 
 ### 8、友盟推送带
 注意友盟推送需要签入java文件才行 因为友盟会起一个新进程
