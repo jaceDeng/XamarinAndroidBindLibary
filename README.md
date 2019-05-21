@@ -1,6 +1,6 @@
 ## XamainAndroidBindLibary
 自己做的一些安卓绑定好的第三方库并带demo的项目
-label style="color:red">喜欢请帮我点个star</label>
+<label style="color:red">喜欢请帮我点个star</label>
 希望能够帮助大家。<br>
 使用demo进行更改首先考虑 application然后是AndroidManifest.xml<br>
 里面的很多细节请注意复制和查看尤其是包名
