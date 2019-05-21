@@ -11,9 +11,9 @@
     <owners>tencent</owners>
     <!--
     <licenseUrl></licenseUrl>
-    <projectUrl></projectUrl>
-    <iconUrl></iconUrl>
--->
+    <projectUrl></projectUrl>-->
+    <iconUrl>https://open.weixin.qq.com/zh_CN/htmledition/res/assets/res-design-download/icon64_appwx_logo.png</iconUrl>
+
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
     <description>腾讯微信支付绑定 安卓绑定 5.3.1 </description>
