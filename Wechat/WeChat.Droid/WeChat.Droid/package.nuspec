@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>WeChat.Droid</id>
+    <!--*-->
+    <version>5.3.1</version>
+    <title>WeChat.Droid</title>
+    <!--*-->
+    <authors>json</authors>
+    <owners>tencent</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>腾讯微信支付绑定 安卓绑定 5.3.1 </description>
+    <!--*-->
+    <releaseNotes>腾讯微信支付绑定 安卓绑定 5.3.1 </releaseNotes>
+    <copyright>Copyright ©  2018</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>
