@@ -4,7 +4,7 @@
     <!--*-->
     <id>WeChat.Droid</id>
     <!--*-->
-    <version>5.3.1</version>
+    <version>5.3.1.2</version>
     <title>WeChat.Droid</title>
     <!--*-->
     <authors>json</authors>
@@ -13,15 +13,13 @@
     <licenseUrl></licenseUrl>
     <projectUrl></projectUrl>-->
     <iconUrl>https://open.weixin.qq.com/zh_CN/htmledition/res/assets/res-design-download/icon64_appwx_logo.png</iconUrl>
-
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
     <description>腾讯微信支付绑定 安卓绑定 5.3.1 </description>
     <!--*-->
     <releaseNotes>腾讯微信支付绑定 安卓绑定 5.3.1 </releaseNotes>
     <copyright>Copyright ©  2018</copyright>
-    <tags>
-    </tags>
+    <tags>xamarin wechat    </tags>
     <dependencies>
       <!--
       <dependency id="SampleDependency" version="1.0" />
