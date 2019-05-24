@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\sofia-1.0.5.aar" />
+    <LibraryProjectZip Include="Jars\sofia-1.0.5.3.aar" />
     <None Include="package.nuspec">
       <SubType>Designer</SubType>
     </None>

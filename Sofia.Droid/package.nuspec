@@ -4,11 +4,11 @@
     <!--*-->
     <id>Sofia.Droid</id>
     <!--*-->
-    <version>1.0.5</version>
+    <version>1.0.5.3</version>
     <title>Sofia.Droid</title>
     <!--*-->
-    <authors>yanzhenjie</authors>
-    <owners>yanzhenjie</owners>
+    <authors>jacedeng</authors>
+    <owners>jacedeng</owners>
     <!--
     <licenseUrl></licenseUrl>
     <projectUrl></projectUrl>
@@ -16,12 +16,11 @@
 -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
-    <description>https://github.com/yanzhenjie/Sofia</description>
+    <description>https://github.com/yanzhenjie/Sofia  修复了全面屏幕黑边问题</description>
     <!--*-->
-    <releaseNotes>https://github.com/yanzhenjie/Sofia</releaseNotes>
-    <copyright>Copyright ©  2018</copyright>
-    <tags>
-    </tags>
+    <releaseNotes>https://github.com/yanzhenjie/Sofia  修复了全面屏幕黑边问题</releaseNotes>
+    <copyright>Copyright ©  2019</copyright>
+    <tags>xamarin  safia  android   </tags>
     <dependencies>
       <!--
       <dependency id="SampleDependency" version="1.0" />
