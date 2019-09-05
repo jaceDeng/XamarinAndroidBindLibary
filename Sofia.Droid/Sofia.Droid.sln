@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sofia.Droid", "Sofia.Droid.csproj", "{114C970C-A91B-4C6F-9264-9A1B23852094}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sofia.Xamarin.Droid", "..\Sofia.Xamarin.Droid\Sofia.Xamarin.Droid.csproj", "{CE8DBCF0-F4AA-46D6-9780-05FD69CDBE3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{114C970C-A91B-4C6F-9264-9A1B23852094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114C970C-A91B-4C6F-9264-9A1B23852094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114C970C-A91B-4C6F-9264-9A1B23852094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8DBCF0-F4AA-46D6-9780-05FD69CDBE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8DBCF0-F4AA-46D6-9780-05FD69CDBE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8DBCF0-F4AA-46D6-9780-05FD69CDBE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8DBCF0-F4AA-46D6-9780-05FD69CDBE3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
