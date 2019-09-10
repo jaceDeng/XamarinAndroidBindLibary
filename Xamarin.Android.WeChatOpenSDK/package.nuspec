@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>Xamarin.Android.WeChatOpenSDK</id>
+    <!--*-->
+    <version>5.4.0</version>
+    <title>wechat-sdk-android-with-mta </title>
+    <!--*-->
+    <authors>tencent</authors>
+    <owners>jacedeng</owners>
+    <!--
+    <licenseUrl></licenseUrl>-->
+    <projectUrl>https://github.com/daddycoding</projectUrl>
+    <!-- <iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>wechat-sdk-android-with-mta 绑定库当前版本是5.4.0</description>
+    <!--*-->
+    <releaseNotes>wechat-sdk-android-with-mta 绑定库当前版本是5.4.0</releaseNotes>
+    <copyright>Copyright ©  2019</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>

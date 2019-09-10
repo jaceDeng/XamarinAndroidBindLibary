@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C524226-438D-43A8-ACD6-C8BEE17BFD07}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xamarin.Android.WeChatOpenSDK</RootNamespace>
+    <AssemblyName>Xamarin.Android.WeChatOpenSDK</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <JavaDocPaths>wechat-sdk-android-with-mta-5.4.0-javadoc</JavaDocPaths>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Additions\AboutAdditions.txt" />
+    <None Include="package.nuspec" />
+    <None Include="wechat-sdk-android-with-mta-5.4.0-javadoc\META-INF\MANIFEST.MF" />
+    <None Include="wechat-sdk-android-with-mta-5.4.0-javadoc\package-list" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\wechat-sdk-android-with-mta-5.4.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\allclasses-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\allclasses-noframe.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\Build.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\ConstantsAPI.AppSupportContentFlag.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\ConstantsAPI.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\ConstantsAPI.OpenWebviewType.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\ConstantsAPI.Token.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\ConstantsAPI.WXApp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\package-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\package-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\constants\package-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\diffdev\DiffDevOAuthFactory.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\diffdev\IDiffDevOAuth.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\diffdev\OAuthErrCode.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\diffdev\OAuthListener.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\diffdev\package-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\diffdev\package-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\diffdev\package-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbase\BaseReq.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbase\BaseResp.ErrCode.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbase\BaseResp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbase\package-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbase\package-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbase\package-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\AddCardToWXCardPackage.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\AddCardToWXCardPackage.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\AddCardToWXCardPackage.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\AddCardToWXCardPackage.WXCardItem.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\ChooseCardFromWXCardPackage.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\ChooseCardFromWXCardPackage.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\ChooseCardFromWXCardPackage.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\CreateChatroom.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\CreateChatroom.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\CreateChatroom.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\HandleScanResult.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\HandleScanResult.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\HandleScanResult.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JoinChatroom.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JoinChatroom.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JoinChatroom.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JumpToBizProfile.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JumpToBizProfile.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JumpToBizTempSession.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JumpToBizTempSession.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JumpToBizWebview.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\JumpToBizWebview.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\OpenBusiLuckyMoney.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\OpenBusiLuckyMoney.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\OpenRankList.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\OpenRankList.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\OpenWebview.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\OpenWebview.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\OpenWebview.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\package-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\package-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\package-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\SubscribeMessage.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\SubscribeMessage.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\SubscribeMessage.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\SubscribeMiniProgramMsg.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\SubscribeMiniProgramMsg.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\SubscribeMiniProgramMsg.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXInvoiceAuthInsert.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXInvoiceAuthInsert.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXInvoiceAuthInsert.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXLaunchMiniProgram.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXLaunchMiniProgram.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXLaunchMiniProgram.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXNontaxPay.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXNontaxPay.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXNontaxPay.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXOpenBusinessView.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXOpenBusinessView.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXOpenBusinessView.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXOpenBusinessWebview.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXOpenBusinessWebview.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXOpenBusinessWebview.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXPayInsurance.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXPayInsurance.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelbiz\WXPayInsurance.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\GetMessageFromWX.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\GetMessageFromWX.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\GetMessageFromWX.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\LaunchFromWX.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\LaunchFromWX.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\LaunchFromWX.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\package-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\package-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\package-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\SendAuth.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\SendAuth.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\SendAuth.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\SendMessageToWX.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\SendMessageToWX.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\SendMessageToWX.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\ShowMessageFromWX.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\ShowMessageFromWX.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\ShowMessageFromWX.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXAppExtendObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXAppLaunchData.Builder.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXAppLaunchData.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXDesignerSharedObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXDynamicVideoMiniProgramObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXEmojiObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXEmojiPageSharedObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXEmojiSharedObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXEnterpriseCardObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXFileObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXGameVideoFileObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXImageObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXLocationObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXMediaMessage.Builder.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXMediaMessage.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXMediaMessage.IMediaObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXMiniProgramObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXMusicObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXTextObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXVideoFileObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXVideoObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXWebpageObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelmsg\WXWeWorkObject.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\JumpToOfflinePay.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\JumpToOfflinePay.Req.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\JumpToOfflinePay.Resp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\package-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\package-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\package-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\PayReq.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\PayReq.Options.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\modelpay\PayResp.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\openapi\IWXAPI.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\openapi\IWXAPIEventHandler.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\openapi\package-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\openapi\package-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\openapi\package-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\com\tencent\mm\opensdk\openapi\WXAPIFactory.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\constant-values.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\deprecated-list.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\help-doc.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\index-all.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\index.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\overview-frame.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\overview-summary.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\overview-tree.html" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\script.js" />
+    <Content Include="wechat-sdk-android-with-mta-5.4.0-javadoc\stylesheet.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
