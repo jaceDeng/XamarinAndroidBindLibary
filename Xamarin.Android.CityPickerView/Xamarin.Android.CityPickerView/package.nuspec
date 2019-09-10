@@ -9,8 +9,7 @@
     <!--*-->
     <authors>jacedeng</authors>
     <owners>jacedeng</owners>
-    <!--
-    <licenseUrl></licenseUrl>-->
+    <license type="expression">MIT</license>
     <projectUrl>https://github.com/crazyandcoder/citypicker</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
@@ -30,7 +29,7 @@
 
     </releaseNotes>
     <copyright>Copyright ©  2019</copyright>
-    <tags>
+    <tags>xamarin android picker city province
     </tags>
     <dependencies>
       <dependency id="GoogleGson" version="2.8.5" />
