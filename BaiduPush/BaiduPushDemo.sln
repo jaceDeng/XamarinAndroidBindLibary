@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiduPushDemo.Android", "src\BaiduPushDemo.Android\BaiduPushDemo.Android.csproj", "{7272FF68-CAA7-4C4E-93C5-38ED972C3D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiduPush", "src\BaiduPush\BaiduPush.csproj", "{B6DB9F51-6F06-4965-B100-4EA311A612F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7272FF68-CAA7-4C4E-93C5-38ED972C3D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7272FF68-CAA7-4C4E-93C5-38ED972C3D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7272FF68-CAA7-4C4E-93C5-38ED972C3D2D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7272FF68-CAA7-4C4E-93C5-38ED972C3D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7272FF68-CAA7-4C4E-93C5-38ED972C3D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7272FF68-CAA7-4C4E-93C5-38ED972C3D2D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B6DB9F51-6F06-4965-B100-4EA311A612F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DB9F51-6F06-4965-B100-4EA311A612F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DB9F51-6F06-4965-B100-4EA311A612F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DB9F51-6F06-4965-B100-4EA311A612F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C17D77F-2E93-4CFA-B94A-0ED8852949E6}
+	EndGlobalSection
+EndGlobal
