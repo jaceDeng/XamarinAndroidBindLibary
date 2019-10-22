@@ -13,6 +13,8 @@
 #*.cs     diff=csharp
 *.cs linguist-language=csharp
 *.xml linguist-language=csharp
+*.js linguist-language=csharp
+*.html linguist-language=csharp
 ###############################################################################
 # Set the merge driver for project and solution files
 #
