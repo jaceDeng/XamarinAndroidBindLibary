@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.baidu.push.app" android:installLocation="auto">
+	<!-- Push service 运行需要的权限 -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+	<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+	<!-- 富媒体需要声明的权限 -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+	<!-- 适配Android N系统必需的ContentProvider写权限声明，写权限包含应用包名 -->
+	<uses-permission android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.${applicationId}" />
+	<permission android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.${applicationId}" android:protectionLevel="normal" />
+	<application android:name="com.baidu.push.app.MainApplication" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+		 
+		<!-- push富媒体，使用富媒体推送必须声明 -->
+		<activity android:name="com.baidu.android.pushservice.richmedia.MediaViewActivity" android:configChanges="orientation|keyboardHidden" android:label="MediaViewActivity" />
+		<activity android:name="com.baidu.android.pushservice.richmedia.MediaListActivity" android:configChanges="orientation|keyboardHidden" android:label="MediaListActivity" android:launchMode="singleTask" />
+		<!-- push富媒体结束 -->
+		<!-- push应用定义消息receiver声明 -->
+		<receiver android:name="com.baidu.push.app.MyPushMessageReceiver">
+			<intent-filter>
+				<!-- 接收push消息 -->
+				<action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+				<!-- 接收bind,unbind,fetch,delete等反馈消息 -->
+				<action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+				<action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+			</intent-filter>
+		</receiver>
+		<!-- push必须的receviver和service声明 -->
+		<receiver android:name="com.baidu.android.pushservice.PushServiceReceiver" android:process=":bdservice_v1">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+				<action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+				<!-- 以下一项为可选的action声明，仅富媒体消息使用 -->
+				<action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+				<!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+				<action android:name="android.intent.action.MEDIA_MOUNTED" />
+				<action android:name="android.intent.action.USER_PRESENT" />
+				<action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+				<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.baidu.android.pushservice.RegistrationReceiver" android:process=":bdservice_v1">
+			<intent-filter>
+				<action android:name="com.baidu.android.pushservice.action.METHOD" />
+				<action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_REMOVED" />
+				<data android:scheme="package" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.baidu.android.pushservice.PushService" android:exported="true" android:process=":bdservice_v1">
+			<intent-filter>
+				<action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+			</intent-filter>
+		</service>
+		<service android:name="com.baidu.android.pushservice.CommandService" android:exported="true" />
+		<!-- 适配Android N系统必需的ContentProvider声明，写权限包含应用包名-->
+		<provider android:name="com.baidu.android.pushservice.PushInfoProvider" android:authorities="${applicationId}.bdpush" android:exported="true" android:protectionLevel="signature" android:writePermission="baidu.push.permission.WRITE_PUSHINFOPROVIDER.${applicationId}" />
+		<!-- 在百度开发者中心查询应用的API Key -->
+		<meta-data android:name="api_key" android:value="hhN9CFi3gZPpm9LD5szBT8hn" />
+	</application>
+	<uses-sdk android:minSdkVersion="22" android:targetSdkVersion="28" />
+</manifest>

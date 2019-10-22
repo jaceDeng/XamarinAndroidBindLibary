@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.CityPickerView", "Xamarin.Android.CityPickerView\Xamarin.Android.CityPickerView.csproj", "{A16A43D2-67CC-4C00-A21A-1AA13DFF4E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1.csproj", "{1E790302-E4D6-42F3-AB95-BC24FE3E2558}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16A43D2-67CC-4C00-A21A-1AA13DFF4E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16A43D2-67CC-4C00-A21A-1AA13DFF4E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16A43D2-67CC-4C00-A21A-1AA13DFF4E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16A43D2-67CC-4C00-A21A-1AA13DFF4E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E790302-E4D6-42F3-AB95-BC24FE3E2558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E790302-E4D6-42F3-AB95-BC24FE3E2558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E790302-E4D6-42F3-AB95-BC24FE3E2558}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E790302-E4D6-42F3-AB95-BC24FE3E2558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E790302-E4D6-42F3-AB95-BC24FE3E2558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E790302-E4D6-42F3-AB95-BC24FE3E2558}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0457B69D-7C05-4F1F-A17B-9527C244809F}
+	EndGlobalSection
+EndGlobal

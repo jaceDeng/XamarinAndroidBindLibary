@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>Xamarin.Android.CityPickerView</id>
+    <!--*-->
+    <version>4.3.2</version>
+    <title>Xamarin.Android.CityPickerView</title>
+    <!--*-->
+    <authors>jacedeng</authors>
+    <owners>jacedeng</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/crazyandcoder/citypicker</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>
+
+      https://github.com/daddycoding/XamarinAndroidBindLibary
+
+    
+  https://github.com/crazyandcoder/citypicker
+   
+    xamarin android绑定库 本库与原作者无关 只是绑定
+
+    </description>
+    <!--*-->
+    <releaseNotes>
+      xamarin android绑定库 本库与原作者无关 只是绑定
+
+    </releaseNotes>
+    <copyright>Copyright ©  2019</copyright>
+    <tags>xamarin android picker city province
+    </tags>
+    <dependencies>
+      <dependency id="GoogleGson" version="2.8.5" />
+    </dependencies>
+  </metadata>
+</package>
