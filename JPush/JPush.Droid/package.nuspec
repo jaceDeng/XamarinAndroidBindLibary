@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>JPush.Droid</id>
+    <!--*-->
+    <version>3.5.8</version>
+    <title>JPush.Droid</title>
+    <!--*-->
+    <authors>JPush</authors>
+    <owners>JPush</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <projectUrl>https://github.com/daddycoding/XamarinAndroidBindLibary</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>极光的Xamarin绑定</description>
+    <!--*-->
+    <releaseNotes>极光的Xamarin绑定</releaseNotes>
+    <copyright>2020</copyright>
+    <tags>xamarin jpush </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>

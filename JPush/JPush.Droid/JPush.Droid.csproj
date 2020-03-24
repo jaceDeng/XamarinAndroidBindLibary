@@ -63,6 +63,9 @@
     <EmbeddedNativeLibrary Include="libs\mips\libjcore230.so" />
     <EmbeddedNativeLibrary Include="libs\x86_64\libjcore230.so" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="package.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
