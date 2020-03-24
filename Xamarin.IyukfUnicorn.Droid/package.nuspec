@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>Xamarin.IyukfUnicorn.Droid</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>Xamarin.IyukfUnicorn.Droid</title>
+    <!--*-->
+    <authors>网易七鱼</authors>
+    <owners>网易七鱼</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>网易七鱼客服 xamarin集成 https://github.com/daddycoding/XamarinAndroidBindLibary </description>
+    <!--*-->
+    <releaseNotes>网易七鱼客服 xamarin集成 https://github.com/daddycoding/XamarinAndroidBindLibary  5.3.1绑定库 </releaseNotes>
+    <copyright>2019</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>

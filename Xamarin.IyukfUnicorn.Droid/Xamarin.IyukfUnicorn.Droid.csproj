@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1EF6889-2A2E-4DB8-B18A-5FE761FFC7CA}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xamarin.IyukfUnicorn.Droid</RootNamespace>
+    <AssemblyName>Xamarin.IyukfUnicorn.Droid</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="Jars\unicorn-5.3.1.aar" />
+    <None Include="package.nuspec" />
+    <None Include="unicorn-5.3.1-javadoc\META-INF\MANIFEST.MF" />
+    <None Include="unicorn-5.3.1-javadoc\package-list" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="unicorn-5.3.1-javadoc\allclasses-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\allclasses-noframe.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\ConsultSource.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\AlbumAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\BaseAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\CameraAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\CloseSessionAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\EvaluationAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\ImageAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\LinkClickAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\TakeVideoAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\VideoAlbumAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\action\WorkOrderAction.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\input\ActionListProvider.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\input\ActionPanelOptions.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\input\InputPanelOptions.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\input\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\input\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\input\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\CustomMessageViewHolderBase.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\EvaluationViewHolderBase.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\ProductViewHolderBase.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\TextViewHolderBase.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\TipsViewHolderBase.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\baseviewholder\UnicornMessageViewHolder.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\MessageHandlerFactory.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\MsgCustomizationRegistry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\msg_list\UnicornMessageHandler.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\page_ad\AdViewProvider.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\page_ad\IMPageViewConfig.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\page_ad\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\page_ad\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\page_ad\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\title_bar\OnTitleBarRightBtnClickListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\title_bar\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\title_bar\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\title_bar\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\customization\title_bar\TitleBarConfig.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\Diagnosis.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\entry\EvaluationOpenEntry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\entry\EvaluationOptionEntry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\entry\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\entry\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\entry\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\EvaluationApi.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\EvaluationApi.OnEvaluationEventListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\evaluation\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\entry\ConnectionStaffResultEntry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\entry\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\entry\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\entry\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\entry\RequestStaffEntry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\entry\TransferCloseResultEntry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\entry\TransferRequestEntry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\EventCallback.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\eventcallback\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\eventcallback\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\eventcallback\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\eventcallback\TransferCloseResultCallback.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\eventcallback\TransferRequestCallback.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\EventProcessFactory.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\EventService.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\SDKEvents.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\UnicornEventBase.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\event\UnicornEventRegistered.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\helper\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\helper\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\helper\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\helper\UnicornVideoMsgHelper.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\helper\UnicornVideoMsgHelper.VideoMessageHelperListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\ImageLoaderListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\lifecycle\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\lifecycle\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\lifecycle\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\lifecycle\SessionLifeCycleListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\lifecycle\SessionLifeCycleOptions.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\AudioAttachment.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\FileAttachment.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\ImageAttachment.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\MsgAttachment.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\attachment\ProductAttachment.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\MessageService.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\MsgStatusEnum.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\MsgTypeEnum.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\OnPushMessageListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\ProductReslectOnclickListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\PushMessageExtension.Action.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\PushMessageExtension.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\PushMessageExtension.Sender.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\SessionStatusEnum.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\UnicornMessage.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\msg\UnicornMessageBuilder.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\OnBotEventListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\OnMessageItemClickListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\OnSessionListChangedListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\OnShopEventListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\package-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\package-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\package-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\POPManager.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\Session.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\SessionListEntrance.Builder.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\SessionListEntrance.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\SessionListEntrance.Position.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\ShopEntrance.Builder.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\ShopEntrance.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\pop\ShopInfo.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\ProductDetail.Builder.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\ProductDetail.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\ProductDetail.Tag.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\QiyuTracker.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\QuickEntry.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\QuickEntryListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\RequestCallback.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\SavePowerConfig.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\StatusBarNotificationConfig.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\UICustomization.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\Unicorn.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\UnicornGifImageLoader.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\UnicornImageLoader.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\UnreadCountChangeListener.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\YSFOptions.html" />
+    <Content Include="unicorn-5.3.1-javadoc\com\qiyukf\unicorn\api\YSFUserInfo.html" />
+    <Content Include="unicorn-5.3.1-javadoc\constant-values.html" />
+    <Content Include="unicorn-5.3.1-javadoc\deprecated-list.html" />
+    <Content Include="unicorn-5.3.1-javadoc\help-doc.html" />
+    <Content Include="unicorn-5.3.1-javadoc\index-all.html" />
+    <Content Include="unicorn-5.3.1-javadoc\index.html" />
+    <Content Include="unicorn-5.3.1-javadoc\overview-frame.html" />
+    <Content Include="unicorn-5.3.1-javadoc\overview-summary.html" />
+    <Content Include="unicorn-5.3.1-javadoc\overview-tree.html" />
+    <Content Include="unicorn-5.3.1-javadoc\script.js" />
+    <Content Include="unicorn-5.3.1-javadoc\serialized-form.html" />
+    <Content Include="unicorn-5.3.1-javadoc\stylesheet.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
