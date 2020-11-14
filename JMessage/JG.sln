@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JG", "JG\JG.csproj", "{183BA5FD-D9BC-4D7A-8BE5-7B633677D088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JCore.Droid", "JCore.Droid\JCore.Droid.csproj", "{B4D23EE5-8B14-47A0-8EBC-F0B908185AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMessage.Droid", "JMessage.Droid\JMessage.Droid.csproj", "{5E47BBD5-BEBC-4E9D-8734-E95FCB4555F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rd", "3rd", "{EB333704-C1C8-46F6-A181-55E5C7B96CE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{183BA5FD-D9BC-4D7A-8BE5-7B633677D088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183BA5FD-D9BC-4D7A-8BE5-7B633677D088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183BA5FD-D9BC-4D7A-8BE5-7B633677D088}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{183BA5FD-D9BC-4D7A-8BE5-7B633677D088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183BA5FD-D9BC-4D7A-8BE5-7B633677D088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183BA5FD-D9BC-4D7A-8BE5-7B633677D088}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B4D23EE5-8B14-47A0-8EBC-F0B908185AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D23EE5-8B14-47A0-8EBC-F0B908185AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D23EE5-8B14-47A0-8EBC-F0B908185AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D23EE5-8B14-47A0-8EBC-F0B908185AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E47BBD5-BEBC-4E9D-8734-E95FCB4555F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E47BBD5-BEBC-4E9D-8734-E95FCB4555F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E47BBD5-BEBC-4E9D-8734-E95FCB4555F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E47BBD5-BEBC-4E9D-8734-E95FCB4555F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4D23EE5-8B14-47A0-8EBC-F0B908185AB1} = {EB333704-C1C8-46F6-A181-55E5C7B96CE9}
+		{5E47BBD5-BEBC-4E9D-8734-E95FCB4555F6} = {EB333704-C1C8-46F6-A181-55E5C7B96CE9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {418F7BA6-8DB2-4676-AB1F-9F03AD7D6171}
+	EndGlobalSection
+EndGlobal

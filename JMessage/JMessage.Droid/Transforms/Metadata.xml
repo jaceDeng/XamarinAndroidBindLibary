@@ -1,0 +1,4 @@
+﻿<metadata>
+  <remove-node path="/api/package[contains(@name,'cn.jmessage')]/*"/>
+  <attr path="/api/package[@name='cn.jpush.im.android.api.event']/class[@name='BaseNotificationEvent']/method[@name='getGid' and count(parameter)=0]" name="visibility">public</attr>
+</metadata>
