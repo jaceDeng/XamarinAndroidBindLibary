@@ -22,6 +22,7 @@ namespace AppTBS.Droid
         public override void OnCreate()
         {
             Com.Tencent.Smtt.Sdk.QbSdk.InitX5Environment(this,null);
+            Com.Tencent.Smtt.Sdk.QbSdk.InitX5Environment(this, null);
             //Com.Tencent.Bugly.Bugly.Init(this.ApplicationContext, APP_ID, false);
             base.OnCreate();
         }
