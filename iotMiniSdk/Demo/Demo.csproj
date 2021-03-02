@@ -107,9 +107,9 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\iotMiniSdk\iotMiniSdk.csproj">
+    <ProjectReference Include="..\iotMiniSdk\iotMiniSdk.Droid.csproj">
       <Project>{e50ed653-17bb-4605-a67b-92e089ab635b}</Project>
-      <Name>iotMiniSdk</Name>
+      <Name>iotMiniSdk.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
