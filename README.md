@@ -60,6 +60,10 @@
 ### 14、微信支付
 微信支付与分享安卓绑定库
 
-### 14、极光推送
+### 15、极光推送
 极光绑定库
 
+### 16、支付宝iot 绑定
+https://opendocs.alipay.com/iot/01kjr6 
+需要注意 库里面依赖了fastjson 所以需要单独处理下json
+我们用Newtonsoft 中的json 处理好后序列化为String  调用JSON.Parse(string)  再传入onMessage() 中
