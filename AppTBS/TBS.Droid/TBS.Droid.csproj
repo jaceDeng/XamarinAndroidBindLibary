@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
-    <None Include="Jars\sdk-43967.aar" />
+    <LibraryProjectZip Include="Jars\sdk-43967.aar" />
     <None Include="package.nuspec" />
   </ItemGroup>
   <ItemGroup>

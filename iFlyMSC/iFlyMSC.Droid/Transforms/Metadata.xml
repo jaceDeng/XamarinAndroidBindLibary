@@ -1,0 +1,33 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	 
+	 <!--<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='DataDownloader']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='DataUploader']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='FaceDetector']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='FaceRequest']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='IdentityVerifier']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeakerVerifier']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechEvaluator']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechRecognizer']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechSynthesizer']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechTranscripter']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUnderstander']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='TextUnderstander']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='VoiceWakeuper']" name="extends">java.lang.Object</attr>
+
+
+	<attr  path="/api/package[@name='com.iflytek.cloud.msc.ist']/class[@name='IstSession']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud.msc.ist']/class[@name='MscTranscripter']" name="extends">java.lang.Object</attr>
+	<attr  path="/api/package[@name='com.iflytek.cloud.ui']/class[@name='RecognizerDialog']" name="extends">java.lang.Object</attr>-->
+
+
+	<remove-node  path="/api"/>
+</metadata>
