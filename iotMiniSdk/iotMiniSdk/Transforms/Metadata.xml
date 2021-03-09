@@ -1,0 +1,29 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<remove-node path="/api/package[contains(@name,'com.alibaba.fastjson')]/*"></remove-node>
+	<add-node path="/api/package[@name='com.alibaba.fastjson']">
+
+		<class abstract="false" deprecated="not deprecated" extends="com.alibaba.fastjson.JSON" extends-generic-aware="com.alibaba.fastjson.JSON" jni-extends="Lcom/alibaba/fastjson/JSON;" final="false" name="JSONObject" static="false" visibility="public" jni-signature="Lcom/alibaba/fastjson/JSONObject;">
+
+
+		</class>
+
+		<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="JSON" static="false" visibility="public" jni-signature="Lcom/alibaba/fastjson/JSON;">
+
+
+			<method abstract="false" deprecated="not deprecated" final="false" name="parse" jni-signature="(Ljava/lang/String;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="true" synchronized="false" synthetic="false" visibility="public">
+				<parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;">
+				</parameter>
+			</method>
+
+		</class>
+
+	</add-node>
+</metadata>

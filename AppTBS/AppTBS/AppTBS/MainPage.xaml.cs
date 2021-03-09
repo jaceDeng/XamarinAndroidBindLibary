@@ -12,8 +12,7 @@ namespace AppTBS
 		public MainPage()
 		{
 			InitializeComponent();
-            // this.web.  http://m.sijibaobao.com/articles.html 
-            // AppTBS.Droid
+          
            
         }
 
@@ -22,7 +21,8 @@ namespace AppTBS
             base.OnAppearing();
             this.WebBrowser.Source = new UrlWebViewSource
             {
-                Url = "http://m.sijibaobao.com/articles.html"
+                //http://debugtbs.qq.com/
+                Url = "file:///android_asset/webpage/fullscreenVideo.html"
             };
         }
     }
