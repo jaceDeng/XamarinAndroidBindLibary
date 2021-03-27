@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iFlyMSC", "iFlyMSC\iFlyMSC.csproj", "{88BAD07D-3735-44D9-968C-2D75DCE56535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iFlyMSC.Droid", "iFlyMSC.Droid\iFlyMSC.Droid.csproj", "{EA2F48C1-5BDC-4042-B1FF-95FB6A07ABD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88BAD07D-3735-44D9-968C-2D75DCE56535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BAD07D-3735-44D9-968C-2D75DCE56535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BAD07D-3735-44D9-968C-2D75DCE56535}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{88BAD07D-3735-44D9-968C-2D75DCE56535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BAD07D-3735-44D9-968C-2D75DCE56535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BAD07D-3735-44D9-968C-2D75DCE56535}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EA2F48C1-5BDC-4042-B1FF-95FB6A07ABD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2F48C1-5BDC-4042-B1FF-95FB6A07ABD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2F48C1-5BDC-4042-B1FF-95FB6A07ABD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2F48C1-5BDC-4042-B1FF-95FB6A07ABD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20255095-C426-49D8-9891-ACD0515E2CB3}
+	EndGlobalSection
+EndGlobal
