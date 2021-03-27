@@ -29,5 +29,30 @@
 	<attr  path="/api/package[@name='com.iflytek.cloud.ui']/class[@name='RecognizerDialog']" name="extends">java.lang.Object</attr>-->
 
 
-	<remove-node  path="/api"/>
+	<remove-node  path="/api/package"/>
+	<!--<add-node path="/api">
+		<package name="com.iflytek.cloud" jni-name="com/iflytek/cloud">
+			<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="com.iflytek.cloud.a.f.d" jni-extends="Lcom/iflytek/cloud/a/f/d;" final="true" name="SpeechRecognizer" static="false" visibility="public" jni-signature="Lcom/iflytek/cloud/SpeechRecognizer;">
+				
+				<method abstract="false" deprecated="not deprecated" final="false" name="createRecognizer" jni-signature="(Landroid/content/Context;Lcom/iflytek/cloud/InitListener;)Lcom/iflytek/cloud/SpeechRecognizer;" bridge="false" native="false" return="com.iflytek.cloud.SpeechRecognizer" jni-return="Lcom/iflytek/cloud/SpeechRecognizer;" static="true" synchronized="true" synthetic="false" visibility="public">
+					<parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
+					</parameter>
+					<parameter name="p1" type="com.iflytek.cloud.InitListener" jni-type="Lcom/iflytek/cloud/InitListener;">
+					</parameter>
+				</method>
+				<method abstract="false" deprecated="not deprecated" final="false" name="getRecognizer" jni-signature="()Lcom/iflytek/cloud/SpeechRecognizer;" bridge="false" native="false" return="com.iflytek.cloud.SpeechRecognizer" jni-return="Lcom/iflytek/cloud/SpeechRecognizer;" static="true" synchronized="false" synthetic="false" visibility="public">
+				</method>
+				<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" jni-signature="(Lcom/iflytek/cloud/b/a;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+					<parameter name="p0" type="com.iflytek.cloud.b.a" jni-type="Lcom/iflytek/cloud/b/a;">
+					</parameter>
+				</method>
+				<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+					<parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+					</parameter>
+					<parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+					</parameter>
+				</method>
+			</class>
+		</package>
+	</add-node>-->
 </metadata>

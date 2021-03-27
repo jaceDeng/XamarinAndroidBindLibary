@@ -188,5 +188,27 @@ namespace Com.Iflytek.Cloud {
 			}
 		}
 
+		// Metadata.xml XPath method reference: path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechRecognizer']/method[@name='setParameter' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String']]"
+		[Register("setParameter", "(Ljava/lang/String;Ljava/lang/String;)Z", "")]
+		public unsafe bool SetParameter(string p0, string p1)
+		{
+			const string __id = "setParameter.(Ljava/lang/String;Ljava/lang/String;)Z";
+			IntPtr native_p0 = JNIEnv.NewString(p0);
+			IntPtr native_p1 = JNIEnv.NewString(p1);
+			try
+			{
+				JniArgumentValue* __args = stackalloc JniArgumentValue[2];
+				__args[0] = new JniArgumentValue(native_p0);
+				__args[1] = new JniArgumentValue(native_p1);
+				var __rm = _members.InstanceMethods.InvokeAbstractBooleanMethod(__id, this, __args);
+				return __rm;
+			}
+			finally
+			{
+				JNIEnv.DeleteLocalRef(native_p0);
+				JNIEnv.DeleteLocalRef(native_p1);
+			}
+		}
+
 	}
 }
