@@ -4,7 +4,7 @@
     <!--*-->
     <id>TBS.Droid</id>
     <!--*-->
-    <version>4.3.9.67</version>
+    <version>4.3.9.93</version>
     <title>TBS.Droid</title>
     <!--*-->
     <authors>$author$</authors>
@@ -15,10 +15,10 @@
     <iconUrl>https://x5.tencent.com/tbs/img/project/sdk_icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
-    <description>tbs 4.3.9.67 腾讯x5 安卓绑定 https://x5.tencent.com/tbs/guide/sdkInit.html</description>
+    <description>tbs 4.3.9.93 腾讯x5 安卓绑定 https://x5.tencent.com/tbs/guide/sdkInit.html</description>
     <!--*-->
-    <releaseNotes>tbs 4.3.9.67 腾讯x5 安卓绑定</releaseNotes>
-    <copyright>Copyright ©  2020</copyright>
+    <releaseNotes>tbs 4.3.9.93 腾讯x5 安卓绑定</releaseNotes>
+    <copyright>Copyright ©  2021</copyright>
     <tags>
     </tags>
     <dependencies>

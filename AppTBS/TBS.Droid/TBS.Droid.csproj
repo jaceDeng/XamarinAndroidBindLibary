@@ -12,7 +12,7 @@
     <RootNamespace>TBS.Droid</RootNamespace>
     <AssemblyName>TBS.Droid</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\sdk-43967.aar" />
+    <LibraryProjectZip Include="Jars\sdk-43993.aar" />
     <None Include="package.nuspec" />
   </ItemGroup>
   <ItemGroup>
