@@ -13,6 +13,11 @@
     <AssemblyName>TBS.Droid</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>ClassLibDotNetStandard</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>your_name</Authors>
+	  <Company>your_company</Company>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,6 +35,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+	
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -42,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\sdk-43993.aar" />
     <None Include="package.nuspec" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="javadoc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\tbs_sdk_thirdapp_v4.3.0.185_44085_sharewithdownloadwithfile_withoutGame_obfs_20210809_201442.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

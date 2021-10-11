@@ -4,20 +4,20 @@
     <!--*-->
     <id>TBS.Droid</id>
     <!--*-->
-    <version>4.3.9.93</version>
+    <version>4.4.0.85</version>
     <title>TBS.Droid</title>
     <!--*-->
-    <authors>$author$</authors>
+    <authors>jacedeng</authors>
     <owners>tbs</owners>
     <!--
     <licenseUrl></licenseUrl>-->
     <projectUrl>https://github.com/dadycoding/XamarinAndroidBindLibary</projectUrl>
-    <iconUrl>https://x5.tencent.com/tbs/img/project/sdk_icon.png</iconUrl>
+    <icon>https://x5.tencent.com/tbs/img/project/sdk_icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
-    <description>tbs 4.3.9.93 腾讯x5 安卓绑定 https://x5.tencent.com/tbs/guide/sdkInit.html</description>
+    <description>tbs 4.4.0.85 版本号44085   腾讯x5 安卓绑定 https://x5.tencent.com/tbs/guide/sdkInit.html  增加合规性和隐私说明https://x5.tencent.com/docs/privacy.html</description>
     <!--*-->
-    <releaseNotes>tbs 4.3.9.93 腾讯x5 安卓绑定</releaseNotes>
+    <releaseNotes>tbs 4.4.0.85  版本号44085 腾讯x5 安卓绑定</releaseNotes>
     <copyright>Copyright ©  2021</copyright>
     <tags>
     </tags>
